@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    height: 98vh;
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 96.4%;
+}
+header{
+    background-color: #52acff;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.main-inf{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: #80bfff;
+}
+.main-inf h4{
+    text-align: center;
+    margin-top: 10px;
+}
+.main-inf__photography{
+    width: 50%;
+    margin: 40% auto;
+    text-align: center;
+}
+.main-inf__photography img{
+    height: 250px;
+    contain: cover;
+    border-radius: 50%;
+    box-shadow: 8px 8px 8px #555;
+}
+.main-inf__github{
+    width: 100px;
+    margin: auto;
+}
+.main-inf__github img{
+    width: 80px;
+}
+.main-inf__github img:hover{
+    filter: drop-shadow(5px 5px 5px #555);
+}
+.main-inf__description{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    width: 70%;
+    height: 100%;
+    background-color: #61c7b1;
+    margin: 0;
+    padding: 0;
+}
+.main-inf__description p{
+    text-align: justify;
+    padding: 20px;
+    width: 100%;
+}
+.main-inf__description div{
+    flex-grow: 1;
+    align-self: top;
+    width: max-content;
+    height: max-content;
+    padding: 0 20px;
+}
+ul{
+    padding-left: 40px;
+}
